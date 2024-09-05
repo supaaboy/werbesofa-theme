@@ -15,6 +15,9 @@ Das Werbesofa WordPress Theme vereint maßgeschneiderte Individualität und höc
 
 == Changelog ==
 
+= 1.0.2 =
+* readme changed
+
 = 1.0.1 =
 * readme changed
 
@@ -24,8 +27,8 @@ Das Werbesofa WordPress Theme vereint maßgeschneiderte Individualität und höc
 
 == Copyright ==
 
-PetPicture WordPress Theme, (C) 2024 Werbesofa
-PetPicture is distributed under the terms of the GNU GPL.
+Werbesofa WordPress Theme, (C) 2024 Werbesofa
+Werbesofa is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
