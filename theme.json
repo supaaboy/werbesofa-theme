@@ -1,0 +1,318 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": false,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#94c11f",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#87b01c",
+					"name": "Primary Hover",
+					"slug": "primary-hover"
+				},
+				{
+					"color": "#fff",
+					"name": "Primary Accent",
+					"slug": "primary-accent"
+				},
+				{
+					"color": "#000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#f8f8f8",
+					"name": "Base",
+					"slug": "base"
+				}
+			]
+		},
+		"custom": {
+			"borderRadius": {
+				"none": "0px",
+				"small": "0.125rem",
+				"base": "0.25rem",
+				"medium": "0.375rem",
+				"large": "0.5rem",
+				"extra-large": "0.75rem",
+				"extra-extra-large": "1rem",
+				"extra-extra-extra-large": "1.5rem",
+				"full": "9999px"
+			}
+		},
+		"dimensions": {
+			"minHeight": false
+		},
+		"layout": {
+			"contentSize": "40rem",
+			"wideSize": "80rem"
+		},
+		"blocks": {
+			"core/image": {
+				"lightbox": {
+					"enabled": true,
+					"allowEditing": true
+				}
+			}
+		},
+		"position": {
+			"sticky": true
+		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{
+					"name": "Small",
+					"slug": "small",
+					"shadow": "0 1px 2px 0 rgb(0 0 0 / 0.05)"
+				},
+				{
+					"name": "Base",
+					"slug": "base",
+					"shadow": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)"
+				},
+				{
+					"name": "Medium",
+					"slug": "medium",
+					"shadow": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)"
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"shadow": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+				},
+				{
+					"name": "Extra Large",
+					"slug": "extra-large",
+					"shadow": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+				},
+				{
+					"name": "Extra Extra Large",
+					"slug": "extra-extra-large",
+					"shadow": "0 25px 50px -12px rgb(0 0 0 / 0.25)"
+				}
+			]
+		},
+		"spacing": {
+			"blockGap": true,
+			"customSpacingSize": false,
+			"margin": true,
+			"padding": true,
+			"spacingScale": {
+				"operator": "*",
+				"increment": 1.5,
+				"steps": 7,
+				"mediumStep": 1,
+				"unit": "rem"
+			}
+		},
+		"typography": {
+			"customFontSize": false,
+			"dropCap": false,
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": false,
+			"lineHeight": false,
+			"textColumns": true,
+			"textDecoration": true,
+			"textTransform": true,
+			"writingMode": false,
+			"fluid": false,
+			"fontSizes": [
+				{
+					"name": "Extra Small",
+					"slug": "extra-small",
+					"size": "0.75rem"
+				},
+				{
+					"name": "Small",
+					"slug": "small",
+					"size": "0.875rem"
+				},
+				{
+					"name": "Medium",
+					"slug": "medium",
+					"size": "1rem"
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"size": "1.125rem"
+				},
+				{
+					"name": "Extra Large",
+					"slug": "extra-large",
+					"size": "1.5rem"
+				},
+				{
+					"name": "Extra Extra Large",
+					"slug": "extra-extra-large",
+					"size": "4.5rem"
+				}
+			],
+			"fontFamilies": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"fontFamily": "'Futura', sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Futura",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/Futura/Futura-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Futura",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/Futura/Futura-400.woff2"
+							]
+						},
+						{
+							"fontFamily": "Futura",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/Futura/Futura-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Futura",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/Futura/Futura-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Futura",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/Futura/Futura-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Futura",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/Futura/Futura-800.woff2"
+							]
+						}
+					]
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"color": {
+			"text": "var:preset|color|contrat",
+			"background": "var:preset|color|base"
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|primary",
+			"fontSize": "var:preset|font-size|medium"
+		},
+		"spacing": {
+			"padding": {
+				"top": "0",
+				"bottom": "0",
+				"left": "1rem",
+				"right": "1rem"
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var:preset|color|primary-accent",
+					"background": "var:preset|color|primary"
+				},
+				"border": {
+					"radius": "var:custom|border-radius|medium"
+				},
+				":hover": {
+					"color": {
+						"text": "var:preset|color|primary-accent",
+						"background": "var:preset|color|primary-hover"
+					}
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|primary"
+				},
+				"typography": {
+					"textDecoration": "none"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "underline"
+					}
+				}
+			}
+		},
+		"blocks": {
+			"core/button": {
+				"variations": {
+					"outline": {
+						"border": {
+							"radius": "var:custom|border-radius|medium",
+							"color": "var:preset|color|primary"
+						},
+						"color": {
+							"text": "var:preset|color|primary"
+						}
+					}
+				}
+			},
+			"core/image": {
+				"variations": {
+					"rounded": {
+						"border": {
+							"radius": "var:custom|border-radius|large"
+						},
+						"shadow": "var:preset|shadow|large"
+					}
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "blank",
+			"title": "Nur Inhalt"
+		}
+	]
+}
