@@ -10,10 +10,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Test123
+Das Werbesofa WordPress Theme vereint maßgeschneiderte Individualität und höchste technische Standards für Unternehmen, die eine professionelle und einzigartige Online-Präsenz suchen. Entwickelt von der Agentur Werbesofa, bietet das Theme eine perfekte Kombination aus modernem Design, responsivem Layout und SEO-Optimierung. Es ist ideal für Firmen, die neben einer ansprechenden Webseite auch Wert auf eine hohe Sichtbarkeit in Suchmaschinen und die nahtlose Integration von SEA-Kampagnen legen. Unterstützt von einem erstklassigen Kundenservice und regelmäßigen Updates, ist das Werbesofa Theme die perfekte Wahl für anspruchsvolle Unternehmen.
 
 
 == Changelog ==
+
+= 1.0.1 =
+* readme changed
 
 = 1.0.0 =
 * Initial release
