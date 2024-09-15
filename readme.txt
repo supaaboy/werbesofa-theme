@@ -15,6 +15,9 @@ Das Werbesofa WordPress Theme vereint maßgeschneiderte Individualität und höc
 
 == Changelog ==
 
+= 1.0.5 =
+* Test Commit
+
 = 1.0.4 =
 * Updater added
 
