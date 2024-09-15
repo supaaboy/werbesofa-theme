@@ -4,6 +4,28 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+$theme_data = wp_get_theme();
+
+$plugin_prefix = 'WERBESOFA';
+
+// Constants
+define($plugin_prefix . '_DIR', get_template_directory());
+define($plugin_prefix . '_BASE', $theme_data->get_stylesheet());
+define($plugin_prefix . '_PATH', get_template_directory() . '/');
+define($plugin_prefix . '_VER', $theme_data->get('Version'));
+define($plugin_prefix . '_CACHE_KEY', 'werbesofa-cache-key-for-theme');
+define($plugin_prefix . '_REMOTE_URL', 'https://www.werbesofa.de/wp-content/uploads/downloads/63/info.json');
+
+require constant($plugin_prefix . '_PATH') . 'inc/update.php';
+
+new DPUpdateChecker(
+    constant($plugin_prefix . '_BASE'),
+    constant($plugin_prefix . '_VER'),
+    constant($plugin_prefix . '_CACHE_KEY'),
+    constant($plugin_prefix . '_REMOTE_URL'),
+    'theme'
+);
+
 // Load front-end assets.
 add_action('wp_enqueue_scripts', 'werbesofa_assets');
 
