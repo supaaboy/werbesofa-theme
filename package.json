@@ -1,12 +1,29 @@
 {
-	"name": "werbesofa",
+	"name": "petpicture",
 	"scripts": {
-		"start": "wp-scripts start --webpack-src-dir=resources --output-path=public",
-		"build": "wp-scripts build --webpack-src-dir=resources --output-path=public"
+		"tailwindbuildscreen": "tailwindcss -i ./resources/scss/screen.scss -o ./public/css/screen.css --postcss --minify",
+		"tailwindbuildeditor": "tailwindcss -i ./resources/scss/editor.scss -o ./public/css/editor.css --postcss --minify",
+		"tailwindwatchscreen": "tailwindcss -i ./resources/scss/screen.scss -o ./public/css/screen.css --watch --postcss --minify",
+		"tailwindwatcheditor": "tailwindcss -i ./resources/scss/editor.scss -o ./public/css/editor.css --watch --postcss --minify",
+		"preview": "npm-run-all --parallel sync start",
+		"sync": "browser-sync start -p 'boilerplate-2024.local' --files '**/*.php' 'build/*.js' 'build/*.css'",
+		"wpbuild": "wp-scripts build --webpack-src-dir=resources --output-path=public",
+		"build": "npm-run-all --sequential wpbuild tailwindbuildscreen tailwindbuildeditor",
+		"wpstart": "wp-scripts start --webpack-src-dir=resources --output-path=public",
+		"start": "npm-run-all --parallel wpstart tailwindwatchscreen tailwindwatcheditor",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^28.6.0",
+		"browser-sync": "^3.0.2",
+		"npm-run-all": "^4.1.5",
 		"path": "^0.12.7",
 		"webpack-remove-empty-scripts": "^1.0.4"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.4.47",
+		"postcss-nested": "^6.2.0",
+		"tailwindcss": "^3.4.11"
 	}
 }
